@@ -1,0 +1,10 @@
+# ALGORITHM-APPLICATION
+
+LUYỆN TẬP VỀ CÁC THUẬT TOÁN:
+  + THUẬT TOÁN SINH 
+  + ĐỆ QUY
+  + CHIA ĐỆ TRỊ
+  + QUAY LUI
+  + THAM LAM
+  + QUY HOẠCH ĐỘNG
+  + CÁC DẠNG BÀI TẬP TƯ DUY TRONG MẢNG VÀ CHUỖI
