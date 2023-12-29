@@ -9,6 +9,15 @@ int M[MAXA][MAXA];
 int A[MAXA];
 int N , K;
 
+void input(){
+	cin>>N>>K;
+	for(int i ; i < K ; i++){
+		for(int j = 0 ; j < 3 ; j++){
+			cin>>M[i][j];
+		}
+	}
+}
+
 int findMinId(int A[]){
 	int min_id = MAXVL;
 	for(int i = 0 ; i < N ; i++){
@@ -25,15 +34,6 @@ int findIndexMin(int A[]){
 	return -1;
 }
 
-void input(){
-	cin>>N>>K;
-	for(int i ; i < K ; i++){
-		for(int j = 0 ; j < 3 ; j++){
-			cin>>M[i][j];
-		}
-		
-	}
-}
 void AddFile(int id , int size){
 																		
 	int first_index = 0;
